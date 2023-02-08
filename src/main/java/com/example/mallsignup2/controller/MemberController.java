@@ -2,6 +2,7 @@ package com.example.mallsignup2.controller;
 
 
 import com.example.mallsignup2.dto.RequestMember;
+import com.example.mallsignup2.dto.ResponseMember;
 import com.example.mallsignup2.service.MemberService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -15,7 +16,7 @@ public class MemberController {
 
 
     @PostMapping("/signup")
-    public String insertMember(RequestMember requestMember) {
+    public ResponseMember insertMember(RequestMember requestMember) {
         return memberService.insertMember(requestMember);
 
     }
