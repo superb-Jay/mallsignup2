@@ -24,19 +24,19 @@ public class Member {
     @Column(name = "id")
     private String id;
 
-    @Column(name = "id")
+    @Column(name = "password")
     private String password;
 
-    @Column(name = "id")
+    @Column(name = "name")
     private String name;
 
-    @Column(name = "id")
+    @Column(name = "age")
     private int age;
 
-    @Column(name = "id")
+    @Column(name = "phone")
     private String phone;
 
-    @Column(name = "id")
+    @Column(name = "address")
     private String address;
 
 
