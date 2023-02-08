@@ -11,7 +11,7 @@ import lombok.*;
 @ToString
 public class RequestMember {
 
-    private String userID;
+    private String userId;
     private String password;
     private String name;
     private String age;
@@ -20,7 +20,7 @@ public class RequestMember {
 
     public Member toEntity() {
         return Member.builder()
-                .id(userID)
+                .id(userId)
                 .password(password)
                 .name(name)
                 .age(Integer.parseInt(age))
