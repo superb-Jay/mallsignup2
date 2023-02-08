@@ -37,7 +37,7 @@ public class Member {
     private String phone;
 
     @Column(name = "id")
-    private String adrress;
+    private String address;
 
 
 
