@@ -31,7 +31,7 @@ public class Member {
     private String name;
 
     @Column(name = "id")
-    private String age;
+    private int age;
 
     @Column(name = "id")
     private String phone;
